@@ -77,6 +77,31 @@ h1, h2 {
   font-weight: 500;
 }
 
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.tech-icons li {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.tech-icons svg {
+  display: block;
+  margin: 0 auto;
+  color: var(--secondary-color);
+  transition: color 0.2s;
+}
+
+.tech-icons svg:hover {
+  color: var(--primary-color);
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;

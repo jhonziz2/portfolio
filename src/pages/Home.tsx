@@ -1,6 +1,13 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import {
+  SiPython,
+  SiJavascript,
+  SiReact,
+  SiFlask,
+  SiPostgresql
+} from 'react-icons/si';
 
 const Home: React.FC = () => {
     return (
@@ -15,12 +22,12 @@ const Home: React.FC = () => {
                 </section>
                 <section className="technologies-section">
                     <h2>Tecnologías que utilizo</h2>
-                    <ul className="tech-list">
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Flask</li>
-                        <li>PostgreSQL</li>
+                    <ul className="tech-list tech-icons">
+                        <li><SiPython size={48} title="Python" /></li>
+                        <li><SiJavascript size={48} title="JavaScript" /></li>
+                        <li><SiReact size={48} title="React" /></li>
+                        <li><SiFlask size={48} title="Flask" /></li>
+                        <li><SiPostgresql size={48} title="PostgreSQL" /></li>
                     </ul>
                 </section>
                 <section className="contact-section">
