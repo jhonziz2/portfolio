@@ -1,0 +1,28 @@
+{
+  "name": "mi-portfolio",
+  "version": "1.0.0",
+  "description": "Un portfolio personal para mostrar mis proyectos.",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "portfolio",
+    "projects",
+    "react"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "homepage": "https://tu-usuario.github.io/mi-portfolio/"
+}
