@@ -7,7 +7,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "portfolio",
@@ -24,5 +26,5 @@
   "devDependencies": {
     "typescript": "^4.1.2"
   },
-  "homepage": "https://tu-usuario.github.io/mi-portfolio/"
+  "homepage": "https://jhonziz2.github.io/portfolio/"
 }
